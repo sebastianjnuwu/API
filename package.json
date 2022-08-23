@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
-    "start": "node build/src/start.js",
+    "start": "node build/start.js",
     "dev": "tsnd --expose-gc --transpile-only --ignore-watch node_modules --respawn src/start.ts",
     "types:check": "tsc --noEmit",
     "lint:fix": "eslint src --fix",
