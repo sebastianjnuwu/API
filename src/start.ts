@@ -10,5 +10,5 @@ app.get('/', function(req, res): void {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(colors.green('[ Info ] ') + `Web serve: connected: ${ip.address()}:${process.env.PORT}`);
+  console.log(colors.green('[ Info ] ') + `Web serve connected: ${ip.address()}:${process.env.PORT}`);
 });
