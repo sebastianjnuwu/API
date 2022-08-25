@@ -5,10 +5,10 @@ import colors from 'colors';
 import ip from 'ip';
 const app = express();
 
-app.get('/', function(req, res): void {
-    res.send('hello world');
-});
+app.use(express.json());
 
 app.listen(process.env.PORT, () => {
   console.log(colors.green('[ Info ] ') + `Web serve connected: ${ip.address()}:${process.env.PORT}`);
 });
+
+export default app;
