@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
+    "sourceMap": false,
     "outDir": "build",
     "strict": true,
     "lib": ["esnext"],
