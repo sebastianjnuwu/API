@@ -2,7 +2,7 @@
 import { Sequelize } from 'sequelize-typescript';
 
 const connection = new Sequelize({
-	host: '190.115.196.29890:3306',
+	host: '190.115.196.20',
     database: process.env.DATABASE,
     dialect: 'mysql',
     username: process.env.USERNAME,
