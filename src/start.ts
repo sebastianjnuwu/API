@@ -1,4 +1,4 @@
-// Hello World 
+import connection from './database/connection';
 import { config } from 'dotenv';
 import express from 'express';
 import colors from 'colors';
@@ -11,4 +11,4 @@ app.listen(process.env.PORT, () => {
   console.log(colors.green('[ Info ] ') + `Web serve connected: ${ip.address()}:${process.env.PORT}`);
 });
 
-export default app;
+export default connection;
