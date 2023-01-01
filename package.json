@@ -1,6 +1,6 @@
 {
   "name": "kettra-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "API on player data",
   "main": "build/src/start.js",
   "license": "Apache-2.0",
